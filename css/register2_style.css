@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+.navbar
+{
+    padding: 1em;
+    /* border: 2px solid green; */
+
+}
+.navbar .nav-head
+{
+    float: left;
+    text-transform: uppercase;
+}
+.navbar .nav-items
+{
+    float: right;
+    margin-top: 1em;
+}
+
+.navbar::after
+{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.navbar .navitem{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 0.5em;
+}
+
+.register
+{
+    height: 150vh;
+    position: relative;
+
+}
+.register .container1
+{
+    height: 50vh;
+    background: url(../img/img4.jpg);
+    /* background:url(../img/img3.jpg);  */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.register .container2
+{
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 70%;
+    background-color: aliceblue;
+}
+.lg-heading
+{
+    font-size: 3.5rem;
+}
+
+.md-heading
+{
+    font-size: 1.7rem;
+}
+.sm-heading
+{
+    font-size: 1.5rem;
+}
+.text-red
+{
+    color: #e63946;
+    
+}
+
+.text-white
+{
+    color: #f4f4f4;
+}
+
+.text-black
+{
+    color: #333;
+
+}
+
+.text-grey
+{
+    color: #555;
+
+}
+input
+{
+    padding: 5px;  
+    border-radius: 5px;
+    height: 30px;
+    background: #fff;
+}
+
+input[type="text"]
+{
+    vertical-align: middle;
+}
+input[type="password"]
+{
+    vertical-align: middle;
+
+}
+.lg-width
+{
+    width: 400px;
+}
+.md-width
+{
+    width: 300px;
+}
+.sm-width
+{
+    width: 200px;
+}
+label{
+    
+    font-weight: 700;
+    vertical-align: middle;
+    display: inline-block;
+    width: 120px;
+}
+.btn-login
+{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e63946;
+    padding: 1%; 
+    margin: 44%;
+
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container2 .form
+{
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+
+
+.footer
+{
+    position: relative;
+    height: 15rem;
+    background-color:#263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+.social i
+{
+    margin: 2rem;
+}

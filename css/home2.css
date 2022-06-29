@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+.navbar
+{
+    padding: 1rem;
+    /* border: 2px solid green; */
+
+}
+.navbar .nav-head
+{
+    float: left;
+    text-transform: uppercase;
+}
+.navbar .nav-items
+{
+    float: right;
+    margin-top: 1rem;
+    
+}
+
+.navbar::after
+{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.navbar .navitem{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.register
+{
+    height: 100vh;
+    position: relative;
+}
+.register .container1
+{
+    height: 40%;
+    background:url(../img/img4.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.register .container2
+{
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 60%;
+    background-color: aliceblue;
+}
+.container2 img
+{
+    height: 50%;
+    width: 30%;
+    margin: 6% 33%;
+}
+
+.lg-heading
+{
+    font-size: 3.5rem;
+}
+
+.md-heading
+{
+    font-size: 1.7rem;
+}
+.sm-heading
+{
+    font-size: 1.5rem;
+}
+.text-red
+{
+    color: #e63946;
+    
+}
+
+.text-white
+{
+    color: #f4f4f4;
+}
+
+.text-black
+{
+    color: #333;
+
+}
+
+.text-grey
+{
+    color: #555;
+
+}
+
+
+.lg-width
+{
+    width: 400px;
+}
+.md-width
+{
+    width: 300px;
+}
+.sm-width
+{
+    width: 200px;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+
+.footer
+{
+    position: relative;
+    height: 15%;
+    background-color:#263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+.social i
+{
+    margin: 2rem;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+ul li
+{
+    list-style: none;
+}
+
+.header
+{
+    height: 10vh;
+    /* background: url(../img/chasma.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.navbar
+{
+    padding: 1rem;
+    /* border: 2px solid green; */
+
+}
+.navbar .nav-head
+{
+    float: left;
+    text-transform: uppercase;
+}
+.navbar .nav-items
+{
+    float: right;
+    margin-top: 1rem;
+}
+
+.navbar::after
+{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.navbar .navitem{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.lg-heading
+{
+    font-size: 3.5rem;
+}
+
+.md-heading
+{
+    font-size: 2rem;
+}
+.sm-heading
+{
+    font-size: 1.5rem;
+}
+.text-red
+{
+    color: #e63946;
+    
+}
+
+.text-white
+{
+    color: #f4f4f4;
+}
+
+.text-black
+{
+    color: #333;
+
+}
+
+.text-grey
+{
+    color: #555;
+
+}
+
+
+.btn
+{
+
+    display:inline-block;
+    padding:0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+}
+
+.btn-primary
+{
+    background-color: white;
+    border-radius: 10em;
+}
+
+.next-btn
+{
+    top: 90%;
+    left: 95%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+a
+{
+    text-decoration: none;
+}
+
+.complaint
+{
+    border: 2px solid red;
+    height: 80vh;
+}
+
+.btn-login
+{
+    background-color: rgb(237, 230, 230);
+  
+    border: 1px solid #e63946;
+    padding: 4px;
+    margin: 10em;
+}
+
+.footer
+{
+    position: relative;
+    height: 16vh;
+    background-color:#263238;
+    color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+.social i
+{
+    margin: 2rem;
+}
